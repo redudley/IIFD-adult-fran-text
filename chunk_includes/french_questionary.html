@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<style type="text/css">
+
+table, td {
+  border-spacing: 10px;
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+td, th {padding:5}
+
+p {text-align: justify;
+  font-family:   Arial, Helvetica, sans-serif; font-size: 1em;}
+
+h3 {color: #08396d;
+font-family:  Arial, Helvetica, sans-serif;}
+
+</style>
+
+
+<div>
+
+<p> Vous avez terminé l'expérience.
+Veuillez répondre aux dernières questions ci-dessous.
+<b> Une fois que vous avez rempli ce questionnaire final, veuillez attendre que les résultats soient envoyés au serveur, puis revenez à Foule Factory pour valider votre participation avec le code fourni sur la page suivante</b>. </p>
+
+
+<fieldset>
+<label for ="year"> Année de naissance: </label>
+  <input type="text" name="year" class="obligatory"/>
+</fieldset> <br>
+
+<fieldset>
+<label for ="sex"> Sexe biologique: </label>
+  <input name="sex" type="radio" value="male" class="obligatory" id="csexmale" /> <label for="csexmale"> <font color='black'> Masculin </font></label>
+  <input name="sex" type="radio" value="female" id="csexfemale"/> <label for="csexfemale" > <font color='black'> Féminin </font></label>
+</fieldset> <br>
+
+<fieldset>
+<label for ="language"> Langue(s) maternelle(s): </label>
+<input type="text" name="language" class="obligatory" size='30' />
+</fieldset> <br>
+
+<fieldset>
+ <label for='mturk'> Numéro de Foule Factory: </label>
+<input name="idturk" type="text" size="30" class="obligatory" />
+</fieldset> <br>
+
+
+<label for="comment"> Commentaires ou suggestions .... </label> <br>
+<textarea name="comment" placeholder="Commentaires facultatifs"></textarea>
+
+</div>
+  </body>
+</html>
